@@ -35,7 +35,7 @@ export const profile = {
   /** Put the PDF in /public with this file name to enable the download button */
   cvUrl: "/Yashod_Mendis_CV.pdf",
   /** Put a portrait in /public (e.g. "/profile.jpg") to replace the monogram */
-  photo: null as string | null,
+  photo: "/profile.JPG" as string | null,
   headline:
     "I design clear, intuitive digital products, from enterprise mobile apps to websites for travel and hospitality brands.",
   intro:
