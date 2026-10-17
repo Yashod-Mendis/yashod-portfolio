@@ -37,12 +37,12 @@ export const profile = {
   /** Put a portrait in /public (e.g. "/profile.jpg") to replace the monogram */
   photo: null as string | null,
   headline:
-    "I design clear, intuitive digital interfaces for travel, hospitality and service brands.",
+    "I design clear, intuitive digital products, from enterprise mobile apps to websites for travel and hospitality brands.",
   intro:
-    "UI/UX Designer with a BSc (Hons) in Software Engineering and a year of industry experience designing high-fidelity web and mobile interfaces in Figma, from first wireframe to developer handoff.",
+    "UI/UX Designer with a BSc (Hons) in Software Engineering and over a year and a half of industry experience designing high-fidelity web and mobile interfaces in Figma, from first wireframe to developer handoff.",
   about: [
     "I'm a detail-oriented UI/UX Designer with a strong academic background in Software Engineering. I care about interfaces that feel effortless: clear hierarchy, consistent systems, and layouts that work just as well on a phone as on a desktop.",
-    "During a year at Smart eWorks I designed more than 15 websites for travel, villa, wellness and service businesses, and built responsive email templates in HTML and CSS. Because I understand front-end development, my designs are practical to build and my handoffs are easy for developers to follow.",
+    "Most recently I designed the UI/UX for ManGo, a large-scale enterprise ride-hailing app, on an 8-month contract. Before that, during a year at Smart eWorks, I designed more than 15 websites for travel, villa, wellness and service businesses, and built responsive email templates in HTML and CSS. Because I understand front-end development, my designs are practical to build and my handoffs are easy for developers to follow.",
     "I'm known for clear communication, leadership and a collaborative mindset, and I'm looking for a team where I can apply design thinking to build impactful digital products.",
   ],
   year: 2026,
@@ -50,7 +50,7 @@ export const profile = {
 
 export const stats = [
   { value: "15+", label: "UI/UX projects delivered" },
-  { value: "1 yr", label: "Industry experience" },
+  { value: "1.5+ yrs", label: "Industry experience" },
   { value: "BSc", label: "Hons, Software Engineering" },
 ];
 
@@ -73,7 +73,34 @@ export const services = [
   },
 ];
 
-export const experience = [
+export type Job = {
+  role: string;
+  company: string;
+  period: string;
+  duration: string;
+  summary: string;
+  points: string[];
+  clientsLabel?: string;
+  clients?: string[];
+  tools: string[];
+};
+
+export const experience: Job[] = [
+  {
+    role: "UI/UX Designer (Contract)",
+    company: "ManGo",
+    period: "Aug 2025 – Mar 2026",
+    duration: "8 months",
+    summary:
+      "Designed the end-to-end mobile experience for ManGo, a large-scale, enterprise ride-hailing and travel app in the style of PickMe and Uber.",
+    points: [
+      "Owned the UI/UX design of the ManGo mobile app, from user flows and wireframes to high-fidelity Figma prototypes.",
+      "Designed core ride-hailing journeys: booking a ride, live trip tracking, fare details, payments and trip history.",
+      "Built a consistent, scalable design system so a large product could grow without losing visual consistency.",
+      "Worked with developers and stakeholders on an enterprise-scale project, delivering clear, build-ready design handoffs.",
+    ],
+    tools: ["Figma", "Canva Pro", "Adobe Photoshop"],
+  },
   {
     role: "UI/UX Designer Intern",
     company: "Smart eWorks",
@@ -87,6 +114,7 @@ export const experience = [
       "Designed and coded responsive email templates in HTML and CSS, ensuring compatibility across major email clients and MailWizz.",
       "Worked closely with developers and stakeholders to keep designs consistent and functional through to launch.",
     ],
+    clientsLabel: "Email & brand projects",
     clients: [
       "Look Lanka",
       "Lanka Data Center",
@@ -100,6 +128,17 @@ export const experience = [
 ];
 
 export const projects: Project[] = [
+  {
+    name: "ManGo",
+    type: "Ride-Hailing Mobile App",
+    category: "Mobile App",
+    platform: "mobile",
+    period: "Aug 2025 – Mar 2026",
+    description:
+      "UI/UX for a large-scale enterprise ride-hailing app, similar to PickMe and Uber, covering ride booking, live tracking, payments and trip history.",
+    tools: ["Figma", "Canva Pro"],
+    featured: true,
+  },
   {
     name: "Wise Travels",
     type: "Tour Website",

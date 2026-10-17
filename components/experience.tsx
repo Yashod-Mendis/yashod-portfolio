@@ -33,12 +33,14 @@ export function Experience() {
               </ul>
 
               <div className="mt-8 grid gap-6 sm:grid-cols-2">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-faint">
-                    Email & brand projects
-                  </p>
-                  <p className="mt-2 text-sm leading-relaxed text-body">{job.clients.join(" · ")}</p>
-                </div>
+                {job.clients && (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-[0.14em] text-faint">
+                      {job.clientsLabel}
+                    </p>
+                    <p className="mt-2 text-sm leading-relaxed text-body">{job.clients.join(" · ")}</p>
+                  </div>
+                )}
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.14em] text-faint">Tools</p>
                   <div className="mt-2 flex flex-wrap gap-1.5">
