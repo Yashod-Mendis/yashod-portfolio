@@ -141,6 +141,7 @@ export const projects: Project[] = [
   },
   {
     name: "Wise Travels",
+    link: "https://www.figma.com/proto/2A4WdKZ6sDyjfzYb5aLG6i/Wise-Travelers?page-id=1011%3A1624&node-id=1011-1792&viewport=496%2C323%2C0.03&t=Yqm4QScmTiUVjKiq-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1011%3A1792",
     image: "/project_covers/wise.jpg",
     type: "Tour Website",
     category: "Tourism",
@@ -153,6 +154,7 @@ export const projects: Project[] = [
   },
   {
     name: "HM House Pest Management",
+    link: "https://www.figma.com/proto/o9KZv5ReD1tmzIqq7zEJYy/HM-House-Pest-Management-service?page-id=97%3A108&node-id=97-133&viewport=-480%2C217%2C0.06&t=6TErSCCe7OCzEUxF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=97%3A133",
     image: "/project_covers/HM.jpg",
     type: "Pest Service Website",
     category: "Services",
@@ -165,6 +167,7 @@ export const projects: Project[] = [
   },
   {
     name: "The Jungle Dream World",
+    link: "https://www.figma.com/proto/u9MtxR5pqLArdSlJgkwNYz/The-Jungle-Dream-World?node-id=1-2&t=xQAdiCOIHNJKovZn-1",
     image: "/project_covers/jungle.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
@@ -177,6 +180,7 @@ export const projects: Project[] = [
   },
   {
     name: "Rosemary Villa",
+    link: "https://www.figma.com/proto/7witjCeUOdJT8145OMa8dW/Rosemary-Villa?page-id=636%3A724&node-id=636-726&viewport=-2336%2C2212%2C0.33&t=Qucr2PV4Zxe0pIcy-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=636%3A726",
     image: "/project_covers/rose.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
@@ -199,6 +203,7 @@ export const projects: Project[] = [
   },
   {
     name: "Cybersecurity Portfolio",
+    link: "https://www.figma.com/proto/ZomrHipFvqL9tfWzHzdAKY/Personal-website-%7C-Portfolio--Community-?node-id=1655-313&t=BvrIRvvtYJ4FV3b4-1",
     image: "/project_covers/cyber.jpg",
     type: "Portfolio Website",
     category: "Portfolio",
@@ -210,6 +215,7 @@ export const projects: Project[] = [
   },
   {
     name: "Tour Plan Sri Lanka",
+    link: "https://www.figma.com/proto/MBXrwtY5s9bABDePp84Xoz/TOUR-PLAN?node-id=443-375&t=jFHPswBKeuuSboi2-1",
     image: "/project_covers/toursplan.jpg",
     type: "Tour Website",
     category: "Tourism",
@@ -221,6 +227,7 @@ export const projects: Project[] = [
   },
   {
     name: "Aliya Tours",
+    link: "https://www.figma.com/proto/vxanXj7KT0WEMieZ6Vw9Iu/Aliya-Tour?node-id=73-131&t=dtzcwBeigX9nKDH6-1",
     image: "/project_covers/aliya.jpg",
     type: "Tour Website",
     category: "Tourism",
@@ -232,6 +239,7 @@ export const projects: Project[] = [
   },
   {
     name: "Samadhi Lagoon Villa",
+    link: "https://www.figma.com/proto/KkFkHq80haDAlqh0iUdgN9/Samadhi--Lagoon-Villa?node-id=1-2&t=M2kfZos4X0TrnDYm-1",
     image: "/project_covers/smadhi.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
@@ -243,6 +251,7 @@ export const projects: Project[] = [
   },
   {
     name: "Eagle Wilpattu Resort",
+    link: "https://www.figma.com/proto/3HAYdhT3q4wiGxV7nm9dgJ/Eagle-Wilpattu?node-id=1-2&t=VH6QnPdbiKdsiwDV-1",
     image: "/project_covers/eagle.jpg",
     type: "Resort Website",
     category: "Villa & Hospitality",
@@ -254,6 +263,7 @@ export const projects: Project[] = [
   },
   {
     name: "Randira Villa",
+    link: "https://www.figma.com/proto/c78lB4YhPXHefXbwlEVqcw/Randika-Villa?node-id=4-340&t=CjDu5QfDHCGg9WUB-1",
     image: "/project_covers/randira.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
@@ -265,6 +275,7 @@ export const projects: Project[] = [
   },
   {
     name: "Sandhara",
+    link: "https://www.figma.com/proto/zIpDRbTGMcN90eaORzUrEj/Sandhara?node-id=561-105&t=qd8qaH8XWKtrzoRN-1",
     image: "/project_covers/sandhara.jpg",
     type: "Artist Portfolio Website",
     category: "Portfolio",
