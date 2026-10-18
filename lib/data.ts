@@ -328,6 +328,7 @@ export const education = [
 
 export const navLinks = [
   { href: "#about", label: "About" },
+  { href: "#case-studies", label: "Case Studies" },
   { href: "#work", label: "Work" },
   { href: "#experience", label: "Experience" },
   { href: "#skills", label: "Skills" },
