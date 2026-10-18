@@ -49,7 +49,7 @@ export function Hero() {
 
           <p className="mt-8 inline-flex items-center gap-1.5 text-sm text-soft">
             <MapPin width={16} height={16} />
-            Based in {profile.location} · Available for remote work
+            Based in {profile.location} · Open to on-site, hybrid & remote roles
           </p>
         </div>
 

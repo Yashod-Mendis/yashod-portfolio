@@ -33,7 +33,7 @@ export const profile = {
   github: "https://github.com/Yashod-Mendis",
   githubLabel: "github.com/Yashod-Mendis",
   /** Put the PDF in /public with this file name to enable the download button */
-  cvUrl: "/Yashod_Mendis_CV.pdf",
+  cvUrl: "/Yashod-Mendis-CV.pdf",
   /** Put a portrait in /public (e.g. "/profile.jpg") to replace the monogram */
   photo: "/profile.JPG" as string | null,
   headline:
@@ -141,6 +141,7 @@ export const projects: Project[] = [
   },
   {
     name: "Wise Travels",
+    image: "/project_covers/wise.jpg",
     type: "Tour Website",
     category: "Tourism",
     platform: "web",
@@ -152,6 +153,7 @@ export const projects: Project[] = [
   },
   {
     name: "HM House Pest Management",
+    image: "/project_covers/HM.jpg",
     type: "Pest Service Website",
     category: "Services",
     platform: "web",
@@ -163,6 +165,7 @@ export const projects: Project[] = [
   },
   {
     name: "The Jungle Dream World",
+    image: "/project_covers/jungle.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
     platform: "web",
@@ -174,6 +177,7 @@ export const projects: Project[] = [
   },
   {
     name: "Rosemary Villa",
+    image: "/project_covers/rose.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
     platform: "web",
@@ -195,6 +199,7 @@ export const projects: Project[] = [
   },
   {
     name: "Cybersecurity Portfolio",
+    image: "/project_covers/cyber.jpg",
     type: "Portfolio Website",
     category: "Portfolio",
     platform: "web",
@@ -205,6 +210,7 @@ export const projects: Project[] = [
   },
   {
     name: "Tour Plan Sri Lanka",
+    image: "/project_covers/toursplan.jpg",
     type: "Tour Website",
     category: "Tourism",
     platform: "web",
@@ -215,6 +221,7 @@ export const projects: Project[] = [
   },
   {
     name: "Aliya Tours",
+    image: "/project_covers/aliya.jpg",
     type: "Tour Website",
     category: "Tourism",
     platform: "web",
@@ -224,17 +231,8 @@ export const projects: Project[] = [
     tools: ["Figma", "Canva Pro"],
   },
   {
-    name: "Galle Camellia",
-    type: "Villa Website",
-    category: "Villa & Hospitality",
-    platform: "web",
-    period: "Sep 2024",
-    description:
-      "A modern villa website design that showcases luxury accommodation.",
-    tools: ["Figma", "Canva Pro"],
-  },
-  {
     name: "Samadhi Lagoon Villa",
+    image: "/project_covers/smadhi.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
     platform: "web",
@@ -245,6 +243,7 @@ export const projects: Project[] = [
   },
   {
     name: "Eagle Wilpattu Resort",
+    image: "/project_covers/eagle.jpg",
     type: "Resort Website",
     category: "Villa & Hospitality",
     platform: "web",
@@ -255,6 +254,7 @@ export const projects: Project[] = [
   },
   {
     name: "Randira Villa",
+    image: "/project_covers/randira.jpg",
     type: "Villa Website",
     category: "Villa & Hospitality",
     platform: "web",
@@ -265,6 +265,7 @@ export const projects: Project[] = [
   },
   {
     name: "Sandhara",
+    image: "/project_covers/sandhara.jpg",
     type: "Artist Portfolio Website",
     category: "Portfolio",
     platform: "web",
