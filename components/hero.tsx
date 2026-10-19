@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { publicAsset } from "@/lib/asset-path";
 import { profile, stats } from "@/lib/data";
 import { ArrowRight, Download, MapPin } from "./icons";
 
@@ -38,7 +39,7 @@ export function Hero() {
               <ArrowRight className="transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
-              href={profile.cvUrl}
+              href={publicAsset(profile.cvUrl)}
               download
               className="inline-flex items-center gap-2 rounded-md border border-line-strong bg-white px-5 py-3 text-sm font-medium text-ink transition-colors hover:border-ink"
             >
@@ -58,7 +59,7 @@ export function Hero() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-muted">
               {profile.photo ? (
                 <Image
-                  src={profile.photo}
+                  src={publicAsset(profile.photo)}
                   alt={`Portrait of ${profile.name}`}
                   fill
                   priority

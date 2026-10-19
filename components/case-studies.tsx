@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { publicAsset } from "@/lib/asset-path";
 import { caseStudies } from "@/lib/case-studies";
 import { ArrowRight } from "./icons";
 import { SectionHeading } from "./section-heading";
@@ -26,7 +27,7 @@ export function CaseStudies() {
                 }`}
               >
                 <Image
-                  src={cs.cover}
+                  src={publicAsset(cs.cover)}
                   alt={`${cs.title} design preview`}
                   fill
                   sizes="(min-width: 1024px) 640px, 100vw"

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { publicAsset } from "@/lib/asset-path";
 import { Footer } from "@/components/footer";
 import { ArrowRight, ArrowUpRight } from "@/components/icons";
 import { caseStudies, getCaseStudy, type Slide } from "@/lib/case-studies";
@@ -26,7 +27,7 @@ function SlideImage({ slide, priority }: { slide: Slide; priority?: boolean }) {
   // type stays crisp instead of being recompressed.
   return (
     <Image
-      src={slide.src}
+      src={publicAsset(slide.src)}
       alt={slide.alt}
       width={slide.width}
       height={slide.height}

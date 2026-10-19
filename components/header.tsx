@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { publicAsset } from "@/lib/asset-path";
 import { navLinks, profile } from "@/lib/data";
 import { Close, Menu } from "./icons";
 
@@ -40,7 +41,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href={profile.cvUrl}
+            href={publicAsset(profile.cvUrl)}
             download
             className="rounded-md bg-ink px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent"
           >
@@ -76,7 +77,7 @@ export function Header() {
             ))}
             <li className="pt-2 pb-3">
               <a
-                href={profile.cvUrl}
+                href={publicAsset(profile.cvUrl)}
                 download
                 className="block rounded-md bg-ink px-4 py-3 text-center text-sm font-medium text-white"
               >

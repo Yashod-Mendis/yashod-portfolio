@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { publicAsset } from "@/lib/asset-path";
 import type { Project } from "@/lib/data";
 
 /**
@@ -10,7 +11,7 @@ export function ProjectCover({ project }: { project: Project }) {
     return (
       <div className="relative aspect-[16/10] overflow-hidden bg-muted">
         <Image
-          src={project.image}
+          src={publicAsset(project.image)}
           alt={`${project.name} ${project.type} design`}
           fill
           sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
